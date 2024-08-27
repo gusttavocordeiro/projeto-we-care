@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin: 70px 0px 140px 100px;
+}
+
+header a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    text-align: left;
+    text-decoration: none;
+    color: #989D9C;
+    margin-right: 32px;
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 30px;
+    background-color: #665AE1;
+    color: #fff;
+    font-size: 16px;
+}
+
+.div-01 {
+    margin-left: 144px;
+    display: inline-block;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+}
+
+.div-02 {
+    display: inline-block;
+    margin-left: 75px;
+}
+
+h1 {
+    width: 513px;
+    height: 122px;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    color: #515151;
+}
+
+h2 {
+    width: 448px;
+    height: 71px;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #848484;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+button {
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ADFF00;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34.13px;
+}
+
+@media (max-width: 775px){
+    header {
+        display: none;
+    }
+
+    .div-01 {
+        display: block;
+        margin: 0;
+        margin-top: 200px;
+    }
+
+    img {
+        max-width: 354px;
+        height: 317px;
+        display: block;
+        margin: auto;
+    }
+
+    .div-02 {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    h1 {
+        width: auto;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    h2 {
+        width: auto;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-main {
+        margin: 0 auto;
+        display: block;
+    }
+
+
+
+}
